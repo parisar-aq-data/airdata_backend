@@ -1,0 +1,51 @@
+name,resourceid,lat,lon,location_id,type,active
+Hadapsar_Gadital_01,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/390a5098-1616-60ca-955e-ce9b5d3ee5f9,18.500945,73.938842,iudx_01,iudx,Y
+Market Yard Junction_02,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c37c6979-6802-4a1c-c852-609b7706f5ba,18.489599,73.857307,iudx_02,iudx,Y
+ABC_Farm_House_Junction_4,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02f7e7ee-29d6-c1c1-4d98-8f74981d9683,18.539217,73.903601,iudx_04,iudx,Y
+Karve Statue Square_5,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/7bd8af4f-99bf-2f69-996c-5fde241fb29a,18.501802,73.815409,iudx_05,iudx,Y
+Vishrantwadi junction_6,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/145bacfd-da11-d35f-ed80-ce7475d9bf3d,18.572404,73.878518,iudx_06,iudx,Y
+Nalstop_Square_7,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a841398a-4739-72ff-497a-a439364f459a,18.508766,73.831273,iudx_07,iudx,Y
+RTO Square_8,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0ede317b-62b5-86e2-de37-604271f37d73,18.529833,73.863397,iudx_08,iudx,Y
+Sinhgad Road Junction_9,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a1198ebc-db62-1c31-28c6-09d51441f153,18.501086,73.84607,iudx_09,iudx,Y
+Blue Diamond Square (Hotel Taj)_10,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f36b4669-628b-ad93-9970-f9d424afbf75,18.538425,73.88559,iudx_10,iudx,Y
+Golibar Square_11,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/146a3c4f-c6e4-959f-e967-f0cfd5b03dcb,18.502865,73.878603,iudx_11,iudx,Y
+Shree Krishna Hotel Square _12,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/503328c5-a2ac-bfae-fd08-cf2630f51a7b,18.5652,73.918006,iudx_12,iudx,Y
+Swargate ST Stand_13,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2922b6ff-0271-cde4-9378-bd00f1a6ea3c,18.498368,73.858437,iudx_13,iudx,Y
+Lullanagar_Square_14,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/12bd3b5b-a189-0d10-3a1f-20a0ba699d7f,18.485643,73.888922,iudx_14,iudx,Y
+PMPML_Bus_Depot_Deccan_15,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c7b8f786-2f89-116f-d98d-8c54bfc7caaf,18.516163,73.842727,iudx_15,iudx,Y
+Seven Loves Square_16,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/388977ff-210f-b2f4-19e6-c619669708a2,18.501306,73.869399,iudx_16,iudx,Y
+VS_Khandekar_Square_17,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b075ef08-a5cc-e920-6be3-f57e5b7731c5,18.520432,73.830386,iudx_17,iudx,Y
+Rajashri_Shahu_Bus_stand_19,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/64131670-4db5-8b9b-6a81-7ddc23f176fd,18.498504,73.857933,iudx_19,iudx,Y
+Warje_Square_21,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/ae767590-445c-4079-14a6-6a954239d7c7,18.480309,73.805765,iudx_21,iudx,Y
+Pune_University_22,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/978ed964-88ee-fbc8-2092-5e41065c6405,18.541967,73.828573,iudx_22,iudx,Y
+Goodluck Square_Cafe_23,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/67ae0343-59e4-e88f-bc4a-f55e7789df44,18.517439,73.841424,iudx_23,iudx,Y
+Sadhu_Wasvani_Square_24,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a70a062d-1bc8-ba77-a530-af9b5d4f2145,18.525007,73.876484,iudx_24,iudx,Y
+Chandani Square_25,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/21ece4ba-0dcf-843a-16e0-35e0082277dd,18.507789,73.783532,iudx_25,iudx,Y
+PMPML Katraj_Depot_New_26,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02b868e6-59f7-9359-3ae3-6feaf0e6bd9f,18.447118,73.858556,iudx_26,iudx,Y
+Golf Club Junction_27,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0541f9dd-2787-d791-9340-c30da7750de7,18.552602,73.889322,iudx_27,iudx,Y
+Pune Railway Station_28,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b3ec32ff-fa7d-64fa-c0af-272e25d314e9,18.528387,73.874251,iudx_28,iudx,Y
+Ambedkar society circle_29,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8cff12b2-b8be-1230-c5f6-ca96b4e4e441,18.552553,73.873166,iudx_29,iudx,Y
+Appa_Balwant_Square_30,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/169af06f-bfee-3513-56e5-b9ddd7b863f0,18.51638,73.853826,iudx_30,iudx,Y
+FursungiKaman_31,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d824fa46-223b-f248-493e-80bb5bdeda68,18.48664,73.952635,iudx_31,iudx,Y
+BopadiSquare_32,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/10b6d0f8-ae93-6622-5d1b-76af4bebc11e,18.572774,73.836817,iudx_32,iudx,Y
+Shimla Office Square (Shivaji Nagar Chowk)_33,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2353b250-df9a-4108-8e2c-240955969d7e,18.530344,73.84992,iudx_33,iudx,Y
+Shivaji_Nagar_Railway_Station_34,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/83cdf03d-5787-7052-08aa-143cfbfb807d,18.531418,73.850429,iudx_34,iudx,Y
+Noble Hospital junction_35,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/db3d6ea0-a84a-b3d6-7ec9-71ae66736273,18.502712,73.927285,iudx_35,iudx,Y
+ChurchKhadakiRailwayStation_36,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3c4ebd7e-00e2-3881-ca79-281a1ba5bc22,18.564088,73.840809,iudx_36,iudx,Y
+Bremen Square_37,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/98bf83b7-a2b8-ea70-88aa-7d1d9f33dbe0,18.560589,73.812648,iudx_37,iudx,Y
+BRTS Visharant wadi_38,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3c84ae0f-dcca-fd9b-1f09-bc0f0e092b63,18.572668,73.881,iudx_38,iudx,Y
+Sadanand Hotel Square_39,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/763f8470-1fca-6f8b-3a8b-ee883a0c5f06,18.56857,73.766392,iudx_39,iudx,Y
+Pune_ST_Stand_40,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/184ba502-22a8-ad15-a8f1-c966cd3aa7a7,18.527615,73.872384,iudx_40,iudx,Y
+Chitale Bandhu Corner_41,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/17429134-c3d7-da41-0057-388a28723913,18.513701,73.85259,iudx_41,iudx,Y
+Nanded City Entry_42,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/52e11fbe-2458-987f-b756-8c5cab1f051e,18.456863,73.801601,iudx_42,iudx,Y
+Power_House_Square_43,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/57c0323e-4cf7-2b22-0e54-e9c043d235cb,18.519513,73.868533,iudx_43,iudx,Y
+Vadgaon_Sheri_Square_44,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/6e5c898e-23ee-f77a-82f5-ebc4998f5f4a,18.558336,73.911371,iudx_44,iudx,Y
+Shivaji Nagar ST Stand_45,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/9426e6f0-71cc-d3f1-6466-760ac8b655a2,18.532001,73.849475,iudx_45,iudx,Y
+Susgaon_46,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3d3a569a-1a89-c3b6-671c-5675e4132c32,18.553421,73.75385,iudx_46,iudx,Y
+Kothrud PMPML BusDepot_48,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d3f2fcf3-24de-0fb6-7b74-0d7b3fa0467d,18.508049,73.795248,iudx_48,iudx,Y
+Bajaj Statue Square_50,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2a072b6c-ec0b-d307-bdc6-86a8b585f5df,18.501188,73.854234,iudx_50,iudx,Y
+Mundhwa Road Junction_51,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f40c0b8e-248f-9f62-414e-7e2a7065d53e,18.532871,73.932849,iudx_51,iudx,Y
+Jhanshi Rani Square_59,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d90466f6-a69a-6989-e54a-eddb4dc47fd4,18.522881,73.848224,iudx_59,iudx,Y
+Dr Baba Saheb Ambedkar Sethu Junction_60,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/05fbae93-d3f7-0bbe-dd5d-2c2b4180edc7,18.541278,73.884363,iudx_60,iudx,Y
+Gunjan Square_65,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b4b9e3b8-fcfa-08c2-a9c5-2093748a116c,18.546154,73.889113,iudx_65,iudx,Y
+Datta Mandir Square_66,datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8011a665-ea2b-dd08-4c49-667bb2256545,18.565271,73.913848,iudx_66,iudx,Y
