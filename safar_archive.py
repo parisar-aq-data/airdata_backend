@@ -13,6 +13,22 @@ import dbconnect
 root = os.path.dirname(__file__)
 url = 'http://safar.tropmet.res.in/map_data.php?for=current&city_id=1'
 
+
+def pm25Transform(x):
+    try:
+        x = float(x)
+    except:
+        # not a number? go back.
+        cf.logmessageSafar(f"Note: This pm25 value is not a number: [{x}]")
+        return x
+
+    if x <= 100:
+        return x * 0.6
+    elif x <= 300:
+        return 60 + (x-100)*0.3
+    else:
+        return 120 + (x-300)*1.3
+
 #################
 # MAIN PROGRAM
 cf.logmessageSafar("Starting Safar AQM archiver")
@@ -52,6 +68,9 @@ del df['title']
 systimestamp = datetime.datetime.utcnow().replace(microsecond=0) + datetime.timedelta(hours=5.5)
 df['time1'] = df['added_on'] = systimestamp
 df['date1'] = systimestamp.strftime('%Y-%m-%d')
+
+# 2021-06-26 : transform pm25 values to convert from AQI to PPM
+df['pm25'] = df['pm25'].apply(pm25Transform)
 
 # preview:
 # df.to_csv('safar_sample.csv', index=False)
