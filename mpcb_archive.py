@@ -49,6 +49,12 @@ def changeDateFormat(text1, informat='%d-%m-%Y', dformat='%Y-%m-%d'):
     d = datetime.datetime.strptime(text1, informat)
     return d.strftime(dformat)
 
+def extractNumber(text1):
+    text2 = "".join(filter(str.isdigit, text1))
+    # from https://stackoverflow.com/a/23142377/4355695
+    return text2
+
+
 #################
 # MAIN PROGRAM
 
@@ -96,21 +102,21 @@ for tN,table in enumerate(tablesHolder):
         if check:
             cf.logmessageMpcb(tdHolder[1].text)
             try:
-                so2 = float(tdHolder[2].text)
+                so2 = float(extractNumber(tdHolder[2].text))
             except:
                 so2 = None
             try:
-                nox = float(tdHolder[3].text)
+                nox = float(extractNumber(tdHolder[3].text))
             except:
                 nox = None
 
             try:
-                rspm = float(tdHolder[4].text)
+                rspm = float(extractNumber(tdHolder[4].text))
             except:
                 rspm = None
              
             try:
-                aqi = float(tdHolder[5].text)
+                aqi = float(extractNumber(tdHolder[5].text))
             except:
                 aqi = None
             
