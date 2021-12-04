@@ -170,5 +170,6 @@ def addTable(df, tablename):
         c.close()
     except:
         c.close()
+        raise
         return False
     return True

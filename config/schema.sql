@@ -51,3 +51,18 @@ CREATE TABLE aqdata2 (
     added_on DATETIME NULL,
     CONSTRAINT aqdata2_c1 UNIQUE (location_id, time1)
 );
+
+
+DROP TABLE IF EXISTS aqdata3;
+CREATE TABLE aqdata3 (
+    location_id VARCHAR(100) NULL,
+    date1 DATE NULL,
+    so2 DECIMAL(9,4) NULL,
+    nox DECIMAL(9,4) NULL,
+    rspm DECIMAL(9,4) NULL,
+    aqi DECIMAL(9,4) NULL,
+    CONSTRAINT aqdata3_c1 UNIQUE (location_id, date1)
+);
+CREATE INDEX aqdata3_i1 ON aqdata3 (date1);
+CREATE INDEX aqdata3_i2 ON aqdata3 (location_id);
+

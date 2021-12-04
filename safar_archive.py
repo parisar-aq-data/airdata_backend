@@ -80,5 +80,5 @@ if not status:
     cf.logmessageSafar(f"Failed to save data to DB, skipping")
 
 end = time.time()
-cf.logmessageIUDX(f"Script completed in {round(end-start,2)} secs")
+cf.logmessageSafar(f"Script completed in {round(end-start,2)} secs")
 
