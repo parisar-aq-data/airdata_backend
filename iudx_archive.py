@@ -37,6 +37,7 @@ for L in locations:
         data = requests.get(fullUrl).json()['results'][0]
     except:
         cf.logmessageIUDX(f"Unable to fetch data for {L['name']}")
+        continue
     row = {}
     row['location_id'] = L['location_id']
     row['lat'] = L['lat']
@@ -76,7 +77,7 @@ for L in locations:
         cf.logmessageIUDX(f"Failed to save data for {L['location_id']} to DB, skipping")
     time.sleep(1)
 
-df = pd.DataFrame(collector)
+# df = pd.DataFrame(collector)
 # preview
 # df.to_csv('iudx_sample.csv',index=False)
 

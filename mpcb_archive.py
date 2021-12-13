@@ -69,7 +69,7 @@ if len(sys.argv)==3:
         cf.cf.logmessageMpcb(r"Invalid start n end dates, give in format: %d-%m-%Y")
         sys.exit()
 else:
-    start_date, end_date = getDates()
+    start_date, end_date = getDates(diff=10)
 
 payload = {
     "cId": "0000000077",
@@ -151,10 +151,19 @@ cf.logmessageMpcb(f"Total {len(df)} records found between dates {start_date} and
 # preview
 # df.to_csv("mpcb_preview.csv", index=False)
 
-status = dbconnect.addTable(df, tablename='aqdata3')
-if not status:
-    cf.logmessageMpcb(f"Failed to save data to DB, skipping")
+# insert records one by one, skip if error
+insertCount = 0
+for row in df.to_dict(orient='records'):
+    try:
+        status = dbconnect.addRow(row,'aqdata3')
+        insertCount += 1
+    except:
+        pass
+
+# status = dbconnect.addTable(df, tablename='aqdata3')
+# if not status:
+#     cf.logmessageMpcb(f"Failed to save data to DB, skipping")
 
 end = time.time()
-cf.logmessageMpcb(f"Script completed in {round(end-start,2)} secs")
+cf.logmessageMpcb(f"{insertCount} records inserted to DB, script completed in {round(end-start,2)} secs")
 
