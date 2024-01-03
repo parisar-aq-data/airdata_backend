@@ -3,3 +3,4 @@ SQLAlchemy
 requests
 beautifulsoup4
 pandas
+tornado
