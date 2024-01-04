@@ -1,1 +1,1 @@
-python3.7 -m tornado -H localhost -P 8080 app:app
+python3.11 -m tornado -H localhost -P 8080 app:app
