@@ -16,7 +16,7 @@ import tornado.ioloop
 import api1
 import api_v2
 
-portnum = 5600
+portnum = 8000
 
 print("Loading dependencies")
 cf.logmessage("All dependences loaded.")

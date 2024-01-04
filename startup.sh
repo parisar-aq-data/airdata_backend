@@ -1,1 +1,1 @@
-python3.11 -m app -H localhost -P 8080 app:app
+python3.11 -m app -H localhost -P 8000 app:app
