@@ -1,1 +1,0 @@
-python -m tornado app:app --host 0.0.0.0
