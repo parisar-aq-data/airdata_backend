@@ -1,1 +1,1 @@
-gunicorn --bind=0.0.0.0 --timeout 600 app:app
+python3.7 -m tornado -H localhost -P 8080 app:app
