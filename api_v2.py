@@ -722,7 +722,7 @@ class getWardOrMonitorSummary(cf.BaseHandler):
             )
             , av as (SELECT name , round(avg(pm25), 2) as Average_pm25, count(*) over () as num_units from daily_pm group by name order by Average_pm25 DESC )
             , ranks as (select * , DENSE_RANK () over (order by Average_pm25 ASC) as pollution_rank FROM av)
-            , threshold_days as (select  name , ifnull(sum(case when pm25 > 30 then 1 end),0) as count_exceeds_threshold from daily_pm where name = '{wardOrMonitorName}' group by 1)
+            , threshold_days as (select  name , ifnull(sum(case when pm25 > 60 then 1 end),0) as count_exceeds_threshold from daily_pm where name = '{wardOrMonitorName}' group by 1)
             select ranks.* , threshold_days.count_exceeds_threshold , missing_days.num_missing_days from ranks 
             inner join threshold_days on ranks.name = threshold_days.name cross join missing_days
             """
