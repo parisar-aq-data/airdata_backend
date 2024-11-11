@@ -1,0 +1,35 @@
+# Byte-compiled files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Local development files
+*.db
+*.sqlite3
+*.log
+*.pid
+
+# Environment variable files
+.env
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db

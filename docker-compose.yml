@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8000" # Adjust based on your app's port
+    environment:
+      MYSQL_SERVER: 95.217.158.215
+      MYSQL_DB: airqual
+      MYSQL_UID: airqual_master
+      MYSQL_PW: DaringlyChooserTrimester5

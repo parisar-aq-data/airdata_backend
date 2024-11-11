@@ -15,6 +15,7 @@ import tornado.ioloop
 
 import api1
 import api_v2
+import apilist
 
 portnum = 8000
 
@@ -51,6 +52,11 @@ class Application(tornado.web.Application):
     _routes = [
         # tornado.web.url(r"/API/fetchBreezoMap", api1.fetchBreezoMap),
         tornado.web.url(r"/", WelcomeAPIHandler),
+        tornado.web.url(r"/API/aqdata1", apilist.GetAqdata1),
+        tornado.web.url(r"/API/aqdata2", apilist.GetAqdata2),
+        tornado.web.url(r"/API/aqdata3", apilist.GetAqdata3),
+        tornado.web.url(r"/API/locations", apilist.GetLocations),
+        tornado.web.url(r"/API/marathiname", apilist.GetMarathiName),
         tornado.web.url(r"/API/wardsAndMonitors", api_v2.getWardsAndMonitors),
         tornado.web.url(r"/API/wardCentroids", api_v2.getWardCentroids),
         tornado.web.url(r"/API/wardPolygons", api_v2.getGeoMappedPollutant),
